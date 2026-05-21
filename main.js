@@ -1,28 +1,20 @@
-// Declare variables
-
 const user = "admin.alexadesk";
 const pass = "@lexa67_";
 
-// add function
+function inputLogin(){
 
-function inputLogin (){
-    let userNameInput = document.getElementById("UserName").value 
-    let passCodeInput = document.getElementById("PassWord").value 
-    let feedback = document.getElementById("feedback");
+    let userNameInput = document.getElementById("UserName").value;
+    let passCodeInput = document.getElementById("PassWord").value;
 
-// test by using if-then-else
-    if (user === userNameInput && pass === passCodeInput){
+    if(user === userNameInput && pass === passCodeInput){
 
-    document.getElementById("feedback").innerHTML =
-    "Login successful. Welcome to your account!";
+        alert("Login successful!");
 
-    window.location.href = "notebook.html";
-
+        window.location.href = "./notebook.html";
     }
-    
-    else {
-         document.getElementById("feedback").innerHTML="Wrong credentials. Please try again.";
+
+    else{
+        document.getElementById("feedback").innerHTML =
+        "Wrong credentials. Please try again.";
     }
-    
 }
-
