@@ -1,0 +1,12 @@
+body{
+    background-image: url(BG-IMG.jpg);
+}
+
+div {
+    margin: auto;
+    align-items: center;
+    border-radius: 25px;
+    border-color: black;
+    background-color: pink;
+    color: darkturquoise;
+}
