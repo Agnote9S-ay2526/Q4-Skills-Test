@@ -1,5 +1,5 @@
 body{
-    background-image: url(BG-IMG.jpg);
+    background-image: url(https://t4.ftcdn.net/jpg/03/25/79/83/360_F_325798309_IZeCFTjLJXq0x6TJlVRbaluHiMb6G1ZO.jpg);
 }
 
 div {
@@ -7,6 +7,4 @@ div {
     align-items: center;
     border-radius: 25px;
     border-color: black;
-    background-color: pink;
-    color: darkturquoise;
 }
